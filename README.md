@@ -117,3 +117,11 @@ This notebook covers creating custom evaluators to assess LLM application qualit
 - Return score and key for tracking
 - Can use both Run and Example schemas
 - Combining multiple evaluators for comprehensive assessment
+
+
+## Module 3: Prompt Engineering
+
+### playground_experiments.ipynb
+This notebook has some example screenshots from the video 'Playgrounds'. I learnt about the playground page on langchain for comparing 2 different prompts. 
+Messed around with a few different models, system prompts, questions and learnt how to compare multiple prompts together. It is also possible to see metrics like time taken, input/output cost.
+I tried multiple repetitions after turning off streaming, which may be useful when the model has a higer temperature. Output schema or tools can also be used with some models. Lastly, I experimented with some testing on sample datasets.
