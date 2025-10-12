@@ -125,3 +125,6 @@ This notebook covers creating custom evaluators to assess LLM application qualit
 This notebook has some example screenshots from the video 'Playgrounds'. I learnt about the playground page on langchain for comparing 2 different prompts. 
 Messed around with a few different models, system prompts, questions and learnt how to compare multiple prompts together. It is also possible to see metrics like time taken, input/output cost.
 I tried multiple repetitions after turning off streaming, which may be useful when the model has a higer temperature. Output schema or tools can also be used with some models. Lastly, I experimented with some testing on sample datasets.
+
+### prompt_hub.ipynb
+key learnings are prompt management, model integration and version control of prompts. I created a batman/hero persona by giving the model a prompt. i learned to push prompts and pull them from langchain. converted langchain propmts to openAI format for direct API calls. tested prompts with different input parameters and team configurations 
