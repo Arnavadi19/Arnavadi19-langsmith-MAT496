@@ -128,3 +128,9 @@ I tried multiple repetitions after turning off streaming, which may be useful wh
 
 ### prompt_hub.ipynb
 key learnings are prompt management, model integration and version control of prompts. I created a batman/hero persona by giving the model a prompt. i learned to push prompts and pull them from langchain. converted langchain propmts to openAI format for direct API calls. tested prompts with different input parameters and team configurations 
+
+### prompt_engineering_lifecylces.ipynb
+Learnings: prompt lifecycle management (use prompts stored in langsmith prompt hub instead of hard coded prompts)
+
+used hub.pull() and client.push_prompt() to manage prompts easily. created evaluation datasets with technical Q&A pairs for systematic testing
+ 
