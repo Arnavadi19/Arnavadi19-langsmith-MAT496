@@ -134,3 +134,7 @@ Learnings: prompt lifecycle management (use prompts stored in langsmith prompt h
 
 used hub.pull() and client.push_prompt() to manage prompts easily. created evaluation datasets with technical Q&A pairs for systematic testing
  
+
+### prompt_canvas.ipynb
+Prompt canvas is located in teh playground interface of langsmith. It can use an LLM agent to write prompts for us, instead of doing it manually (apparently we're too lazy to even write prompts now)
+added screenshots from langsmith to this notebook, since theres no code involved.
